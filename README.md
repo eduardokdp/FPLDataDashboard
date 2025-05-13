@@ -20,7 +20,6 @@ An interactive dashboard built with **Streamlit** to help Fantasy Premier League
 - **Streamlit**
 - **Plotly**
 - **Pandas**
-- FPL data fetched from the [official FPL API](https://fantasy.premierleague.com/api/)
 
 ---
 
