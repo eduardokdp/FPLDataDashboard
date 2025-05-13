@@ -1,0 +1,8 @@
+[server]
+enableXsrfProtection = false
+
+[theme]
+base="light"
+
+[ui]
+hideTopBar = true
