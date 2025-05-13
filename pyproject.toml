@@ -1,13 +1,24 @@
-[project]
-name = "repl-nix-workspace"
+[tool.poetry]
+name = "fpldatadashboard"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.10,<3.11"
-dependencies = [
-    "numpy>=2.2.5",
-    "pandas>=2.2.3",
-    "plotly>=6.0.1",
-    "requests>=2.32.3",
-    "streamlit>=1.45.0",
-    "trafilatura>=2.0.0",
-]
+description = "A Streamlit dashboard to analyze and visualize Fantasy Premier League player data."
+authors = ["Eduardo Kallina de Paula <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+streamlit = "^1.45.1"
+pandas = "^2.2.3"
+numpy = "^2.2.5"
+plotly = "^6.0.1"
+pyarrow = "^20.0.0"
+altair = "^5.5.0"
+scikit-learn = "^1.4.2"
+matplotlib = "^3.8.4"
+watchdog = "^6.0.0"
+python-dateutil = "^2.9.0.post0"
+requests = "^2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
