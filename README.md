@@ -4,6 +4,8 @@ An interactive dashboard built with **Streamlit** to help Fantasy Premier League
 
 ---
 
+##Live demo @ https://fpldatadashboard.streamlit.app/
+
 ## Features
 
 - **Interactive visualizations**: Form vs. Price, Team Strength comparisons
