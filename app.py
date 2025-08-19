@@ -4,7 +4,7 @@ import pandas as pd
 from fpl_api import get_players_data, get_teams_data, get_fixtures_data, get_next_gameweek
 from data_processor import process_player_data, get_positions_dict
 from visualization import plot_player_history, plot_form_vs_price, plot_team_strength_comparison
-from utils import filter_players, get_team_logo_url
+from utils import filter_players, get_team_logo_url, get_player_image_url
 
 st.set_page_config(
     page_title="FPL Info Dashboard",
