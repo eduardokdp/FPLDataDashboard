@@ -32,6 +32,12 @@ def filter_players(
     
     return filtered_df
 
+def get_player_image_url(player_code: int) -> str:
+    """
+    Get the URL for a player's image based on their unique code.
+    """
+    return f"https://resources.premierleague.com/premierleague/photos/players/110x140/p{player_code}.png"
+
 def get_team_logo_url(team_code: int) -> Optional[str]:
     """
     Get the URL for a team's logo based on team code
