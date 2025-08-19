@@ -54,6 +54,7 @@ def process_player_data(players_data, teams_data, fixtures_data):
         
         processed_player = {
             'id': player['id'],
+            'code': player['code'],
             'name': player['web_name'],
             'full_name': f"{player['first_name']} {player['second_name']}",
             'team_id': team_id,
