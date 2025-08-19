@@ -143,9 +143,8 @@ with st.expander("Show Player Cards"):
                         col1, col2 = st.columns([1, 2])
 
                         with col1:
-                            team_logo = get_team_logo_url(player['team_code'])
-                            if team_logo:
-                                st.image(team_logo, width=70)
+                            player_img = get_player_image_url(player['code'])
+                            st.image(player_img, width=50)
 
                         with col2:
                             st.markdown(f"**Team:** {player['team_name']}")
